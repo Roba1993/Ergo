@@ -5,13 +5,18 @@ import 'package:angular_ui/angular_ui.dart';
 
 import 'package:Ergo/router/ergo_router.dart';
 import 'package:Ergo/component/menu/menu.dart';
+import 'package:Ergo/component/news/news.dart';
+import 'package:Ergo/component/provider/provider.dart';
+import 'package:Ergo/component/category/category.dart';
 
 class MainModule extends Module {
 
   MainModule() {
     // bind components
-    //bind(AlertComponent);
     bind(MenuComponent);
+    bind(NewsComponent);
+    bind(ProviderComponent);
+    bind(CategoryComponent);
 
     // Route configuration
     bind(RouteInitializerFn, toValue: ergoRouteInitializer);

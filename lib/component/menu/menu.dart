@@ -1,10 +1,11 @@
-import 'package:angular/angular.dart';
+library Ergo.component.menu;
 
+import 'package:angular/angular.dart';
 
 
 @Component(
     selector: 'menu',
-    templateUrl: 'menu.html',
+    templateUrl: 'packages/Ergo/component/menu/menu.html',
     cssUrl: 'menu.css',
     useShadowDom: false)
 class MenuComponent {
