@@ -8,6 +8,7 @@ import 'package:Ergo/component/menu/menu.dart';
 import 'package:Ergo/component/news/news.dart';
 import 'package:Ergo/component/provider/provider.dart';
 import 'package:Ergo/component/category/category.dart';
+import 'package:Ergo/component/map/map.dart';
 
 class MainModule extends Module {
 
@@ -17,6 +18,7 @@ class MainModule extends Module {
     bind(NewsComponent);
     bind(ProviderComponent);
     bind(CategoryComponent);
+    bind(MapComponent);
 
     // Route configuration
     bind(RouteInitializerFn, toValue: ergoRouteInitializer);

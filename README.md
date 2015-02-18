@@ -1,3 +1,4 @@
 # Ergo
 
-This is a simple AppEngine Dart application. It shows a simple way of handling HTTP requests and how to use the preconfigured AppEngine memcache API service.
+To use this app, download Dart from https://www.dartlang.org/ and open this project wit the Dart-Editor.
+Run the index.html in the web folder.
