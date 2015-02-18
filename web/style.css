@@ -1,0 +1,9 @@
+/* bootstrap no empty href allowed in angular */
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+/* we have to set the height of the menu */
+menu {
+    margin-bottom: 60px;
+}
