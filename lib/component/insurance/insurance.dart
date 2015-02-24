@@ -14,6 +14,10 @@ class InsuranceComponent {
   final Http _http;
 
   var name;
+  num size = 10;
+  num price = 100;
+  DateTime start;
+  DateTime end;
 
   InsuranceComponent(this._http, RouteProvider routeProvider) {
     // get the data from the json file
@@ -35,4 +39,18 @@ class InsuranceComponent {
 
     site = routeProvider.parameters['site'];
   }
+
+  num calcDays() {
+    if(start != null && end != null) {
+      var d = end.difference(start);
+
+      if(d.inDays > 0) {
+        return d.inDays;
+      }
+    }
+
+    return 0;
+  }
+
+  num calcPrice() => ((price/30) + (0.001*size*150)) * ((100+calcDays()) / 100);
 }

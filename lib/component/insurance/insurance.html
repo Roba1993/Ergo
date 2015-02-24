@@ -5,31 +5,34 @@
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1">Flatsize</span>
-            <input type="text" class="form-control" placeholder="20" aria-describedby="basic-addon1">
+            <input type="number" class="form-control" ng-model="size" placeholder="20" aria-describedby="basic-addon1">
+            <span class="input-group-addon">m2</span>
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon2">Rent Price</span>
-            <input type="text" class="form-control" placeholder="50" aria-describedby="basic-addon2">
+            <input type="number" class="form-control" ng-model="price" placeholder="50" aria-describedby="basic-addon2">
+            <span class="input-group-addon">€</span>
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3">Start Rent Time</span>
-            <input type="text" class="form-control" placeholder="01.02.2015" aria-describedby="basic-addon3">
+            <input type="date" class="form-control" ng-model="start" placeholder="01.02.2015" aria-describedby="basic-addon3">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon4">End Rent Time</span>
-            <input type="text" class="form-control" placeholder="02.02.2015" aria-describedby="basic-addon4">
+            <input type="date" class="form-control" ng-model="end" placeholder="02.02.2015" aria-describedby="basic-addon4">
         </div>
         <br/>
 
         <div class="input-group has-success">
             <span class="input-group-addon" id="basic-addon5">Insurance Price</span>
-            <input type="text" class="form-control" placeholder="10€" aria-describedby="basic-addon5" readonly>
+            <input type="number" class="form-control" ng-model="calcPrice()" placeholder="10€" aria-describedby="basic-addon5" readonly>
+            <span class="input-group-addon">€</span>
         </div>
         <br/>
 
