@@ -1,6 +1,8 @@
 library Ergo.component.provider;
 
 import 'package:angular/angular.dart';
+import 'package:Ergo/model/providerModel.dart';
+import 'package:Ergo/logic/httpLoader.dart';
 
 @Component(
     selector: 'provider',
@@ -8,20 +10,16 @@ import 'package:angular/angular.dart';
     cssUrl: 'provider.css',
     useShadowDom: false)
 class ProviderComponent {
-  List<ProviderModel> provider = new List<ProviderModel>();
+  List<ProviderModel> provider;
+  final Http _http;
+  String selected;
 
- ProviderComponent() {
-    provider.add(new ProviderModel("Test1", "Content 1"));
-    provider.add(new ProviderModel("Test2", "Content 2"));
-    provider.add(new ProviderModel("Test3", "Content 3"));
-    provider.add(new ProviderModel("Test4", "Content 4"));
+ ProviderComponent(this._http) {
+   _http.get('provider.json').then((HttpResponse response) {
+     provider =  response.data.map((d) => new ProviderModel.fromJson(d)).toList();
+   })
+   .catchError((e) {
+     print(e);
+   });
   }
-}
-
-
-class ProviderModel {
-  String title;
-  String content;
-
-  ProviderModel(this.title, this.content);
 }

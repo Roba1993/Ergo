@@ -7,8 +7,9 @@ import 'package:Ergo/router/ergo_router.dart';
 import 'package:Ergo/component/menu/menu.dart';
 import 'package:Ergo/component/news/news.dart';
 import 'package:Ergo/component/provider/provider.dart';
-import 'package:Ergo/component/category/category.dart';
 import 'package:Ergo/component/map/map.dart';
+import 'package:Ergo/component/provider_view/provider_view.dart';
+import 'package:Ergo/component/insurance/insurance.dart';
 
 class MainModule extends Module {
 
@@ -17,8 +18,9 @@ class MainModule extends Module {
     bind(MenuComponent);
     bind(NewsComponent);
     bind(ProviderComponent);
-    bind(CategoryComponent);
+    bind(ProviderViewComponent);
     bind(MapComponent);
+    bind(InsuranceComponent);
 
     // Route configuration
     bind(RouteInitializerFn, toValue: ergoRouteInitializer);

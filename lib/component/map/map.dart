@@ -14,6 +14,7 @@ import 'dart:js';
     cssUrl: 'map.css')
 class MapComponent implements ShadowRootAware {
   var map;
+  String location;
 
   onShadowRoot(root) {
     // From https://code.google.com/p/dart/source/browse/branches/bleeding_edge/dart/samples/google_maps/web/index.dart
