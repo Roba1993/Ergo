@@ -10,7 +10,10 @@ import 'package:Ergo/model/providerModel.dart';
     useShadowDom: false)
 class InsuranceComponent {
   ProviderModel provider;
+  var site;
   final Http _http;
+
+  var name;
 
   InsuranceComponent(this._http, RouteProvider routeProvider) {
     // get the data from the json file
@@ -29,5 +32,7 @@ class InsuranceComponent {
     .catchError((e) {
       print(e);
     });
+
+    site = routeProvider.parameters['site'];
   }
 }

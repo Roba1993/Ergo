@@ -7,3 +7,9 @@
 menu {
     margin-bottom: 60px;
 }
+
+
+.ng-hide,
+.ng-show {
+    display: none !important;
+}

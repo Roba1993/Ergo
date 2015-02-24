@@ -9,7 +9,8 @@ void ergoRouteInitializer(Router router, RouteViewFactory views) {
       'map': ngRoute(path: '/map', view: 'view/map.html'),
       'provider': ngRoute(path: '/provider', view: 'view/provider.html'),
       'provider-view': ngRoute(path: '/provider/:provider', view: 'view/provider_view.html'),
-      'insurance': ngRoute(path: '/provider/:provider/insurance', view: 'view/insurance.html')
+      'insurance': ngRoute(path: '/provider/:provider/insurance', view: 'view/insurance.html'),
+      'insurance-site': ngRoute(path: '/provider/:provider/insurance/:site', view: 'view/insurance.html')
   });
 
 }
