@@ -4,6 +4,7 @@ import 'dart:html';
 
 import 'package:angular/angular.dart';
 import 'package:google_maps/google_maps.dart';
+import 'package:Ergo/model/flatModel.dart';
 
 /**
  * A component with a simple template which the Javascript Google Maps API
@@ -15,9 +16,16 @@ import 'package:google_maps/google_maps.dart';
     cssUrl: 'map.css',
     useShadowDom: false)
 class MapComponent implements ShadowRootAware {
+  final Http _http;
   String _place = "Köln";
   var map;
+  var flats;
 
+  /// Constructor EMthod for this class
+  MapComponent(this._http);
+
+  /// This function centers the map of the actual typed location.
+  /// It's called at every change of place autocratically
   set place(String place) {
     _place = place;
 
@@ -32,14 +40,19 @@ class MapComponent implements ShadowRootAware {
     });
   }
 
+  /// get the place
   get place => _place;
 
+  /// This function starts when the html is loaded
   @override
   onShadowRoot(ShadowRoot shadowRoot) {
-    updateMap();
+    setMap();
+    addFlats();
   }
 
-  updateMap() {
+  /// This function set's the map
+  setMap() {
+    // set the map options
     final mapOptions = new MapOptions()
       ..zoom = 8
       ..center = new LatLng(50.936039090088215, 6.96121215820312)
@@ -47,20 +60,41 @@ class MapComponent implements ShadowRootAware {
     ;
     map = new GMap(querySelector("#map_canvas"), mapOptions);
 
-
+    // bin the map to the div element
     querySelector("#map_canvas").style.height = (window.innerHeight - 50).toString()+"px";
+    // resize the map
     querySelector("#place").style.top = (window.innerHeight - 50).toString()+"px";
+  }
 
+  /// this faction add the flats from the flats.json to the map
+  addFlats() {
+    // get the flats from the json
+    _http.get('flats.json').then((HttpResponse response) {
+      flats =  response.data.map((d) => new FlatModel.fromJson(d)).toList();
+    })
+    .catchError((e) {
+      print(e);
+    });
 
-    // try to get location
-    if (window.navigator.geolocation != null) {
-      window.navigator.geolocation.getCurrentPosition().then((position) {
-        map.center = new LatLng(position.coords.latitude, position.coords.longitude);
-      }, onError : (error) {
-        window.console.log("Can't get geo location");
+    // loop over all maps
+    for(FlatModel f in flats) {
+      // get the coordinates of the location
+      final request = new GeocoderRequest()
+        ..address = f.location
+      ;
+
+      new Geocoder().geocode(request, (List<GeocoderResult> results, GeocoderStatus status) {
+        if (status == GeocoderStatus.OK) {
+          // set the marker
+          final marker = new Marker(new MarkerOptions()
+            ..map = map
+            ..position = results[0].geometry.location
+          );
+        } else {
+          window.console.log("Can't set flat with id $f.id");
+        }
       });
     }
   }
-
 
 }

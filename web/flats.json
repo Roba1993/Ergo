@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "1",
+    "name" : "Flat 1",
+    "content": "Flat for 4 persons",
+    "url" : "www.airbnb.de",
+    "location" : "Köln"
+  },
+  {
+    "id" : "2",
+    "name" : "Flat 2",
+    "content": "Flat for 2 persons",
+    "url" : "www.airbnb.de",
+    "location" : "Düsseldorf"
+  }
+]
