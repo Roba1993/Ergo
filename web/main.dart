@@ -36,7 +36,7 @@ class MainModule extends Module {
 
 void main() {
   applicationFactory()
-    .addModule(new MainModule())
     .addModule(new AngularUIModule())
+    .addModule(new MainModule())
     .run();
 }

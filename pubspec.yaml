@@ -8,6 +8,6 @@ dependencies:
   angular: "1.1.0"
   web_components: any
   browser: any
-  angular_ui: any
+  angular_ui: '>=0.6.4 <0.7.0'
 transformers:
 - angular

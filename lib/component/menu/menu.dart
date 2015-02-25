@@ -10,4 +10,15 @@ import 'package:angular/angular.dart';
     useShadowDom: false)
 class MenuComponent {
   int test = 3;
+
+  @NgAttr('active-menu')
+  String active;
+
+  String checkActive(String a) {
+    if(a == active) {
+      return "active";
+    }
+
+    return "";
+  }
 }
