@@ -1,7 +1,15 @@
-<div class="panel panel-primary" ng-repeat="article in news">
-    <div class="panel-heading">{{article.title}}</div>
-    <div class="panel-body">
-        {{article.content}}
+<a href="#/news/{{article.title}}" ng-repeat="article in news">
+    <div class="panel panel-default news">
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-left">
+                        <img class="media-object news-pic" src="img/ergo.jpg" alt="the piture">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">{{article.title}}</h4>
+                    <p>{{article.content}}</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-
+</a>

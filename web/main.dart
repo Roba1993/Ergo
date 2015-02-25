@@ -10,6 +10,7 @@ import 'package:Ergo/component/provider/provider.dart';
 import 'package:Ergo/component/map/map.dart';
 import 'package:Ergo/component/provider_view/provider_view.dart';
 import 'package:Ergo/component/insurance/insurance.dart';
+import 'package:Ergo/component/news_view/news_view.dart';
 
 class MainModule extends Module {
 
@@ -17,6 +18,7 @@ class MainModule extends Module {
     // bind components
     bind(MenuComponent);
     bind(NewsComponent);
+    bind(NewsViewComponent);
     bind(ProviderComponent);
     bind(ProviderViewComponent);
     bind(MapComponent);

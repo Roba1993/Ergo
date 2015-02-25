@@ -54,19 +54,19 @@
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon2b">Street & Number</span>
-            <input type="text" class="form-control" placeholder="Main Street 101" aria-describedby="basic-addon2b">
+            <input type="text" class="form-control" ng-model="street" placeholder="Main Street 101" aria-describedby="basic-addon2b">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3b">Postal Code & City</span>
-            <input type="text" class="form-control" placeholder="72639 Cologne" aria-describedby="basic-addon3b">
+            <input type="text" class="form-control" ng-model="city" placeholder="72639 Cologne" aria-describedby="basic-addon3b">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon4b">Country</span>
-            <input type="text" class="form-control" placeholder="Germany" aria-describedby="basic-addon4b">
+            <input type="text" class="form-control" ng-model="country" placeholder="Germany" aria-describedby="basic-addon4b">
         </div>
         <br/>
 
@@ -84,25 +84,25 @@
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1c">First & Lastname</span>
-            <input type="text" class="form-control" placeholder="{{name}}" aria-describedby="basic-addon1c">
+            <input type="text" class="form-control" value="{{name}}" aria-describedby="basic-addon1c">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon2c">Credit Card Number</span>
-            <input type="text" class="form-control" placeholder="0123 4567 1234 5678" aria-describedby="basic-addon2c">
+            <input type="text" class="form-control" ng-model="card" placeholder="0123 4567 1234 5678" aria-describedby="basic-addon2c">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3c">Secret Number</span>
-            <input type="text" class="form-control" placeholder="123" aria-describedby="basic-addon3c">
+            <input type="text" class="form-control" ng-model="secret" placeholder="123" aria-describedby="basic-addon3c">
         </div>
         <br/>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon4c">Expire Date</span>
-            <input type="text" class="form-control" placeholder="16/06" aria-describedby="basic-addon4c">
+            <input type="text" class="form-control" ng-model="expire" placeholder="16/06" aria-describedby="basic-addon4c">
         </div>
         <br/>
 
@@ -114,6 +114,6 @@
 
 <div class="jumbotron insurance" ng-show="site == '3'">
     <h1>Payment Successful</h1>
-    <p>The amount of ... is get from ...</p>
+    <p>The amount of {{calcPrice()}} is get from {{name}} and his debit card {{card}}</p>
     <p><a class="btn btn-primary btn-success" href="#" role="button">Go to {{provider.name}}</a></p>
 </div>

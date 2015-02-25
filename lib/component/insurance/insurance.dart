@@ -18,6 +18,12 @@ class InsuranceComponent {
   num price = 100;
   DateTime start;
   DateTime end;
+  var street;
+  var city;
+  var country;
+  var card;
+  var secret;
+  var expire;
 
   InsuranceComponent(this._http, RouteProvider routeProvider) {
     // get the data from the json file
