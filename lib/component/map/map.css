@@ -1,4 +1,11 @@
-.map {
-    height: 500px;
-    width: 100%;
+#map_canvas {
+    height: 300px;
+    margin-top: -10px;
+}
+
+#place {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 300px;
 }

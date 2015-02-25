@@ -9,5 +9,6 @@ dependencies:
   web_components: any
   browser: any
   angular_ui: '>=0.6.4 <0.7.0'
+  google_maps: ">=2.0.0 <3.0.0"
 transformers:
 - angular
