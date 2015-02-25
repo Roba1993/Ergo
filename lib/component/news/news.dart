@@ -1,6 +1,7 @@
 library Ergo.component.news;
 
 import 'package:angular/angular.dart';
+import 'package:Ergo/model/newsModel.dart';
 
 @Component(
     selector: 'news',
@@ -8,20 +9,15 @@ import 'package:angular/angular.dart';
     cssUrl: 'news.css',
     useShadowDom: false)
 class NewsComponent {
-  List<NewsModel> news = new List<NewsModel>();
+  var news;
+  final Http _http;
 
-  NewsComponent() {
-    news.add(new NewsModel("Test1", "Content 1"));
-    news.add(new NewsModel("Test2", "Content 2"));
-    news.add(new NewsModel("Test3", "Content 3"));
-    news.add(new NewsModel("Test4", "Content 4"));
+  NewsComponent(this._http) {
+    _http.get('news.json').then((HttpResponse response) {
+      news =  response.data.map((d) => new NewsModel.fromJson(d)).toList();
+    })
+    .catchError((e) {
+      print(e);
+    });
   }
-}
-
-
-class NewsModel {
-  String title;
-  String content;
-
-  NewsModel(this.title, this.content);
 }
