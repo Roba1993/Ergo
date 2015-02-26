@@ -2,14 +2,14 @@
   {
     "id" : "1",
     "name" : "Flat 1",
-    "content": "Flat for 4 persons",
+    "content": "<h2>Flat for 2</h2><p>tada data olala</p>",
     "url" : "www.airbnb.de",
     "location" : "Köln"
   },
   {
     "id" : "2",
     "name" : "Flat 2",
-    "content": "Flat for 2 persons",
+    "content": "<h2>Flat for 2</h2><p>tada data olala</p>",
     "url" : "www.airbnb.de",
     "location" : "Düsseldorf"
   }

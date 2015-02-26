@@ -15,7 +15,7 @@ class FlatModel {
       "id": id,
       "name": name,
       "content": content,
-      "urlPic": url,
+      "url": url,
       "location": location
   };
 

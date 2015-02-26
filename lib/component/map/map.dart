@@ -19,7 +19,7 @@ class MapComponent implements ShadowRootAware {
   final Http _http;
   String _place = "Köln";
   var map;
-  var flats;
+  List<FlatModel> flats = new List<FlatModel>();
 
   /// Constructor EMthod for this class
   MapComponent(this._http);
@@ -71,30 +71,43 @@ class MapComponent implements ShadowRootAware {
     // get the flats from the json
     _http.get('flats.json').then((HttpResponse response) {
       flats =  response.data.map((d) => new FlatModel.fromJson(d)).toList();
+
+      // loop over all maps
+      for(FlatModel f in flats) {
+        window.console.log("flat: $f");
+        // get the coordinates of the location
+        final request = new GeocoderRequest()
+          ..address = f.location
+        ;
+
+        new Geocoder().geocode(request, (List<GeocoderResult> results, GeocoderStatus status) {
+          if (status == GeocoderStatus.OK) {
+            // set the marker
+            final marker = new Marker(new MarkerOptions()
+              ..map = map
+              ..position = results[0].geometry.location
+              ..title = f.name
+            );
+
+            // set info window
+            var buttons = '<a href="' + f.url + '" class="btn btn-danger" role="button">Without Insurance</a>' +
+            '<a href="#/provider/map/insurance" class="btn btn-success pull-right" role="button">With Insurance</a>';
+            final infowindow = new InfoWindow(new InfoWindowOptions()
+              ..content = f.content + buttons
+            );
+
+            // set click event
+            marker.onClick.listen((e) {
+              infowindow.open(map, marker);
+            });
+          }
+        });
+      }
     })
     .catchError((e) {
       print(e);
     });
 
-    // loop over all maps
-    for(FlatModel f in flats) {
-      // get the coordinates of the location
-      final request = new GeocoderRequest()
-        ..address = f.location
-      ;
-
-      new Geocoder().geocode(request, (List<GeocoderResult> results, GeocoderStatus status) {
-        if (status == GeocoderStatus.OK) {
-          // set the marker
-          final marker = new Marker(new MarkerOptions()
-            ..map = map
-            ..position = results[0].geometry.location
-          );
-        } else {
-          window.console.log("Can't set flat with id $f.id");
-        }
-      });
-    }
   }
 
 }

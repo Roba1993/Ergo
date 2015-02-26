@@ -1,24 +1,21 @@
-<carousel interval="5000" class="car">
-    <slide>
-        <img ng-src="img/ergo.jpg" style="margin:auto;">
-    </slide>
-    <slide>
-        <img ng-src="img/ergo.jpg" style="margin:auto;">
-    </slide>
-    <slide>
-        <img ng-src="img/ergo.jpg" style="margin:auto;">
-    </slide>
-    <slide>
-        <img ng-src="img/ergo.jpg" style="margin:auto;">
-    </slide>
-</carousel>
+<div class="car">
+    <carousel interval="5000" class="">
+        <slide ng-repeat="article in topnews">
+            <img ng-src="{{article.urlPic}}" style="margin:auto;">
+            <div class="carousel-caption">
+                <h4>{{article.title}}</h4>
+                <p>{{article.content}}</p>
+            </div>
+        </slide>
+    </carousel>
+</div>
 
 <a href="#/news/{{article.id}}" class="news-link" ng-repeat="article in news">
     <div class="panel panel-default news">
         <div class="panel-body">
             <div class="media">
                 <div class="media-left">
-                        <img class="media-object news-pic" src="img/ergo.jpg" alt="the piture">
+                        <img class="media-object news-pic" src="{{article.urlPic}}" alt="the piture">
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">{{article.title}}</h4>

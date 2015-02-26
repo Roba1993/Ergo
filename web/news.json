@@ -3,12 +3,28 @@
     "id" : "1",
     "title" : "News AirBnB",
     "content": "News über AirBnB ist der coolste und beste Anbieter. Bla und Bla und Bla",
-    "urlPic": "img/ergo.jpg"
+    "urlPic": "img/ergo.jpg",
+    "isTopnews" : "false"
   },
   {
     "id" : "2",
     "title" : "News Hostelworld",
     "content": "News über Hostelworld und alles was dazu gehört usw.",
-    "urlPic": "img/ergo.jpg"
+    "urlPic": "img/ergo.jpg",
+    "isTopnews" : "false"
+  },
+  {
+    "id" : "3",
+    "title" : "Info about XXX",
+    "content": "Think about this stuff....",
+    "urlPic": "img/ergo.jpg",
+    "isTopnews" : "true"
+  },
+  {
+    "id" : "3",
+    "title" : "Anfo about YYYY",
+    "content": "la li lu ich kack mir in den schuh",
+    "urlPic": "img/ergo.jpg",
+    "isTopnews" : "true"
   }
 ]
