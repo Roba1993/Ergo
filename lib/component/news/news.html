@@ -1,11 +1,13 @@
 <div class="car">
     <carousel interval="5000" class="">
         <slide ng-repeat="article in topnews">
-            <img ng-src="{{article.urlPic}}" style="margin:auto;">
-            <div class="carousel-caption">
-                <h4>{{article.title}}</h4>
-                <p>{{article.content}}</p>
-            </div>
+            <a href="#/news/{{article.id}}" class="news-link" >
+                <img ng-src="{{article.urlPic}}" style="margin:auto;">
+
+                <div class="carousel-caption">
+                    <h4>{{article.title}}</h4>
+                </div>
+            </a>
         </slide>
     </carousel>
 </div>
@@ -19,7 +21,7 @@
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">{{article.title}}</h4>
-                    <p>{{article.content}}</p>
+                    <p ng-bind-html="short(article.content)"></p>
                 </div>
             </div>
         </div>

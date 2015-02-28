@@ -12,6 +12,7 @@ class NewsComponent {
   List<NewsModel> news = new List<NewsModel>();
   List<NewsModel> topnews = new List<NewsModel>();
   final Http _http;
+  String link = "2";
 
   NewsComponent(this._http) {
     _http.get('news.json').then((HttpResponse response) {
@@ -29,5 +30,25 @@ class NewsComponent {
     .catchError((e) {
       print(e);
     });
+  }
+
+
+
+  short(String input) {
+    input = removeHtml(input);
+
+    if(input.length > 110) {
+      input = input.substring(0, input.indexOf(" ", 110));
+      input = input + " ...";
+    }
+
+    return input;
+  }
+
+  removeHtml(String input) {
+    while(input.indexOf("<") >= 0) {
+      input = input.substring(0, input.indexOf("<")) + input.substring(input.indexOf(">") + 1);
+    }
+    return input;
   }
 }
