@@ -21,14 +21,14 @@
     "isTopnews" : "false",
   },
   {
-    "id" : "3",
+    "id" : "4",
     "title" : "Info about XXX",
     "content": "Think about this stuff....",
     "urlPic": "img/ergo.jpg",
     "isTopnews" : "true"
   },
   {
-    "id" : "4",
+    "id" : "5",
     "title" : "Anfo about YYYY",
     "content": "la li lu ich kack mir in den schuh",
     "urlPic": "img/ergo.jpg",
