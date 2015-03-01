@@ -31,7 +31,7 @@
 
         <div class="input-group has-success">
             <span class="input-group-addon" id="basic-addon5">Insurance Price</span>
-            <input type="number" class="form-control" ng-model="calcPrice()" placeholder="10€" aria-describedby="basic-addon5" readonly>
+            <input type="text" class="form-control" ng-model="calcPrice()" placeholder="10€" aria-describedby="basic-addon5" readonly>
             <span class="input-group-addon">€</span>
         </div>
         <br/>
@@ -114,6 +114,6 @@
 
 <div class="jumbotron insurance" ng-show="site == '3'">
     <h1>Payment Successful</h1>
-    <p>The amount of {{calcPrice()}} is get from {{name}} and his debit card {{card}}</p>
+    <p>The amount of {{calcPrice()}}€ is get from {{name}} and his debit card {{card}}</p>
     <p><a class="btn btn-primary btn-success" href="#" role="button">Go to {{provider.name}}</a></p>
 </div>

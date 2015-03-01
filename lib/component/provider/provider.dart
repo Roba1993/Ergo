@@ -2,7 +2,6 @@ library Ergo.component.provider;
 
 import 'package:angular/angular.dart';
 import 'package:Ergo/model/providerModel.dart';
-import 'package:Ergo/logic/httpLoader.dart';
 
 @Component(
     selector: 'provider',

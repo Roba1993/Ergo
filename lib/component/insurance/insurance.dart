@@ -2,6 +2,7 @@ library Ergo.component.insurance;
 
 import 'package:angular/angular.dart';
 import 'package:Ergo/model/providerModel.dart';
+import 'package:intl/intl.dart';
 
 @Component(
     selector: 'insurance',
@@ -12,6 +13,7 @@ class InsuranceComponent {
   ProviderModel provider;
   var site;
   final Http _http;
+  final format = new NumberFormat("###.0#", "en_US");
 
   var name;
   num size = 10;
@@ -58,5 +60,5 @@ class InsuranceComponent {
     return 0;
   }
 
-  num calcPrice() => ((price/30) + (0.001*size*150)) * ((100+calcDays()) / 100);
+  calcPrice() => format.format(((price/30) + (0.001*size*150)) * ((100+calcDays()) / 100));
 }
