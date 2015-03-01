@@ -23,8 +23,29 @@
   {
     "id" : "4",
     "name" : "Flat 4",
-    "content": "<h2>Flat in Neukölln</h2><p>An artist-owned green oasis with good connections & parking in Neukölln, the hotspot of Berlin. A warm, quiet and comfortable flat that looks out onto trees and blends quirky old furniture with a minimalist design ethic. </p>",
+    "content": "<h2>Flat in historic center of Düsseldorf </h2><p>An artist-owned green oasis with good connections & parking in the historic center of Düsseldorf, the hotspot of Düsseldorf. A warm, quiet and comfortable flat that looks out onto trees and blends quirky old furniture with a minimalist design ethic. </p>",
     "url" : "www.wimdu.de",
-    "location" : "Saalestraße 27, Berlin"
+    "location" : "Mertengasse 19, Düsseldorf"
+  },
+  {
+    "id" : "5",
+    "name" : "Flat 5",
+    "content": "<h2>Private Room and Bath</h2><p>This private room in a spacious modern apartment offers a queen size bed and optional twin mattress on the floor. Room has a private balcony, and separate, but private bath. </p>",
+    "url" : "www.wimdu.de",
+    "location" : "Severinstraße 17, Köln"
+  },
+  {
+    "id" : "6",
+    "name" : "Flat 6",
+    "content" : ""<h2>Central Apartment with great view</h2><p>Spacious flat with large balcony and stunning views across Cologne. Across the road from the bus station and less than 10 minute walk to the train station. Large private room with access to own bathroom. Greats bars/cafes/shops on your front door. </p>",
+    "url" : "www.9flats.de",
+    "location" : "Domstraße 81, Köln"
+  },
+  {
+    "id" : "7",
+    "name" : "Flat 7",
+    "content" : ""<h2>Nice Bedroom</h2><p>I offer a large and spacious cozy room, which is furnished with a very comfortable king size double bed (180 x 200 cm). The room comes with a shared kitchen, bathroom and a livingroom. In the livingroom you can eat, watch TV and relax.  </p>",
+    "url" : "www.airbnb.de",
+    "location" : "Stammstraße 4, Köln"
   }
 ]
