@@ -2,15 +2,29 @@
   {
     "id" : "1",
     "name" : "Flat 1",
-    "content": "<h2>Flat for 2</h2><p>tada data olala</p>",
+    "content": "<h2>Flat for 3</h2><p>This large, sunny one-bedroom apartment measures about 43 square-meter in a lovely brownstone building in the center of Cologne, just next to the Cologne Cathedral.</p>",
     "url" : "www.airbnb.de",
-    "location" : "Köln"
+    "location" : "Sporergasse 22, Köln"
   },
   {
     "id" : "2",
     "name" : "Flat 2",
-    "content": "<h2>Flat for 2</h2><p>tada data olala</p>",
+    "content": "<h2>Bedroom for 2</h2><p>Located in the heart of Düsseldorf, this private bedroom features plenty of space, access to living room, kitchen and bath as well as roof in the summer. </p>",
+    "url" : "www.9flats.de",
+    "location" : "Luisenstraße 10, Düsseldorf"
+  },
+  {
+    "id" : "3",
+    "name" : "Flat 3",
+    "content" : "<h2>Apartment next to the Rhine</h2><p>Luxury Studio Apartment, tastefully furnished, Restaurants, Shops, Supermarket in same building and Central Station/Buses in walking distance. </p>",
     "url" : "www.airbnb.de",
-    "location" : "Düsseldorf"
+    "location" : "Anna-Schneider-Steig 8, Köln"
+  },
+  {
+    "id" : "4",
+    "name" : "Flat 4",
+    "content": "<h2>Flat in Neukölln</h2><p>An artist-owned green oasis with good connections & parking in Neukölln, the hotspot of Berlin. A warm, quiet and comfortable flat that looks out onto trees and blends quirky old furniture with a minimalist design ethic. </p>",
+    "url" : "www.wimdu.de",
+    "location" : "Saalestraße 27, Berlin"
   }
 ]
