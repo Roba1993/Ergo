@@ -47,5 +47,19 @@
     "content" : "<h2>Nice Bedroom</h2><p>I offer a large and spacious cozy room, which is furnished with a very comfortable king size double bed (180 x 200 cm). The room comes with a shared kitchen, bathroom and a livingroom. In the livingroom you can eat, watch TV and relax.  </p>",
     "url" : "www.airbnb.de",
     "location" : "Stammstraße 4, Köln"
+  },
+  {
+    "id" : "8",
+    "name" : "Flat 8",
+    "content" : "<h2>Modern and Cozy Apartment in Cenral City</h2><p>Perfect for traveling professionals, this sizable room has a queen bed, modern decor, and floor-to-ceiling windows. Less than a 10 minute walk (5 min bus) to downtown, this space is accessible for all forms of work and play. </p>",
+    "url" : "www.9flats.de",
+    "location" : "Heumarkt 75, Köln"
+  },
+  {
+    "id" : "9",
+    "name" : "Flat 9",
+    "content": "<h2>Renovated Flat</h2><p>I have just finished renovating my flat and I am renting it out this summer while I am away. There are many supermarkets close to the flat and many are open till late so if you don't feel like eating out, it's always possible to cook something at home! The area is safe, and the access to the building is protected with a first door with a code and a second door with an interphone. </p>",
+    "url" : "www.airbnb.de",
+    "location" : "Berger Allee 9, Düsseldorf"
   }
 ]
