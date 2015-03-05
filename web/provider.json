@@ -2,13 +2,31 @@
   {
     "name" : "AirBnB",
     "description": "AirBnB ist der coolste und beste Anbieter. Bla und Bla und Bla",
-    "pictureUrl": "img/ergo.jpg",
+    "pictureUrl": "img/airbnb-provider.jpg",
     "url" : "www.airbnb.com"
   },
   {
-    "name" : "Hostelworld",
-    "description": "Hostelworld ein Platz zum schlafen",
-    "pictureUrl": "img/ergo.jpg",
-    "url" : "www.hostelworld.com"
+    "name" : "WINDU",
+    "description": "........",
+    "pictureUrl": "img/windu-provider.jpg",
+    "url" : "www.wimdu.com"
+  },
+  {
+    "name" : "9flats",
+    "description": "........",
+    "pictureUrl": "img/9flats-provider.jpg",
+    "url" : "www.9flats.com/"
+  },
+  {
+    "name" : "GLOVELER",
+    "description": "...........",
+    "pictureUrl": "img/gloveler-provider.jpg",
+    "url" : "www.gloveler.de/"
+  },
+  {
+    "name" : "HOUSETRIP",
+    "description": "AirBnB ist der coolste und beste Anbieter. Bla und Bla und Bla",
+    "pictureUrl": "img/housetrip-provider.jpg",
+    "url" : "www.airbnb.com"
   }
 ]
