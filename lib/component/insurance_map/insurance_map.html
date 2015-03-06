@@ -1,11 +1,11 @@
 <div class="panel panel-default insurance" ng-show="site == null">
-    <div class="panel-heading">Home Sharing Insurance - Step 1</div>
+    <div class="panel-heading">Travel Insurance - Step 1</div>
     <div class="panel-body">
         <p>Please insert the following details about the shared flat.</p>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">Flatsize</span>
-            <input type="number" class="form-control" ng-model="size" placeholder="20" aria-describedby="basic-addon1">
+            <span class="input-group-addon" id="basic-addon1">Persons</span>
+            <input type="number" class="form-control" ng-model="persons" placeholder="20" aria-describedby="basic-addon1">
             <span class="input-group-addon">m2</span>
         </div>
         <br/>
@@ -36,13 +36,13 @@
         </div>
         <br/>
 
-        <a href="#/provider/{{provider.name}}" class="btn btn-danger" role="button">Abort</a>
+        <a href="#/map" class="btn btn-danger" role="button">Abort</a>
         <a ng-click="site = '1'" class="btn btn-success pull-right" role="button">Next</a>
     </div>
 </div>
 
 <div class="panel panel-default insurance" ng-show="site == '1'">
-    <div class="panel-heading">Home Sharing Insurance - Step 2</div>
+    <div class="panel-heading">Travel Insurance - Step 2</div>
     <div class="panel-body">
         <p>Please insert the following details about the shared flat.</p>
 
@@ -77,7 +77,7 @@
 </div>
 
 <div class="panel panel-default insurance" ng-show="site == '2'">
-    <div class="panel-heading">Home Sharing Insurance - Step 3</div>
+    <div class="panel-heading">Travel Insurance - Step 3</div>
     <div class="panel-body">
         <p>Please insert the following details about the shared flat.</p>
 
@@ -115,5 +115,5 @@
 <div class="jumbotron insurance" ng-show="site == '3'">
     <h1>Payment Successful</h1>
     <p>The amount of {{calcPrice()}}€ is get from {{name}} and his debit card {{card}}</p>
-    <p><a class="btn btn-primary btn-success" href="#" role="button">Go to {{provider.name}}</a></p>
+    <p><a class="btn btn-primary btn-success" href="#" role="button">Ready</a></p>
 </div>

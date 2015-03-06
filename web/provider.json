@@ -2,35 +2,30 @@
   {
     "name" : "AirBnB",
     "description": "<p>A marketplace for those willing to book a unique accomodation and those offering their property for renting. Hosts define the price and reservation requirements for the guests and the unexperienced ones get support from the Airbnb-team. Guests and hosts get informed about each other with the help of the confirmed reviews.</p><p>Distinguishing features:</p><ul> <li>ID-verification through social networks and personal details confirmation&nbsp;&nbsp; &nbsp;</li> <li>Host protection with the Airbnb Host Guarantee&nbsp;&nbsp; &nbsp;</li>  <li>3% service fee for hosts&nbsp;&nbsp; &nbsp;</li>  <li>Airbnb App&nbsp;&nbsp; &nbsp;</li>  <li>Four cancellation policies: flexible, moderate, strict, super strict*&nbsp;&nbsp; &nbsp;</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "description2": "<p>* We offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>",
     "pictureUrl": "img/airbnb-provider.jpg",
     "url" : "www.airbnb.com"
   },
   {
     "name" : "WINDU",
     "description": "<p>An online platform with accomodation offerings for any preferences and budget. Here hosts receive support from a photography service to improve the quality of the listings. Guests get garanteed quality and are well informed about the amenities provided by property and the guidelines to adhere to stated in the &#39;House rules&#39; prepared by hosts..</p><p>Distinguishing features:&nbsp;&nbsp; &nbsp;</p><ul> <li>Triple-check to ensure quality: in-site check, 365 check, guest reviews</li>  <li>Free host insurance for up to 500,000&euro;, however available not in all countries</li>  <li>Wimdu Host App</li> <li>Security deposit option</li>  <li>Three cancellation policies available:&lsquo;Free&rsquo;, &lsquo;Moderate&rsquo; and&lsquo;Strict*</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "description2": "<p>* We offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>",
     "pictureUrl": "img/windu-provider.jpg",
     "url" : "www.wimdu.com"
   },
   {
     "name" : "9flats",
     "description": "<p>An platform with a big variety of vacation apartments offered by individuals. Those looking for a placeto stay can use filters and make the search personalised. Hosts need to reply within 24 hours after receiving a request. They receive payment securely a day after the guest&#39;s arrival.</p><p>Distinguishing features:&nbsp;&nbsp; &nbsp;</p><ul> <li>Verification of hosts by phone&nbsp;&nbsp; &nbsp;</li>  <li>Insurance to cover unintended damages caused to rental property for both guests and hosts free of charge&nbsp;&nbsp; &nbsp;</li>  <li>No changes for accepted bookings are possible except the guest solves the issue with the host personally*</li>  <li>&#39;Instant booking&#39;&nbsp;book a place by up to 8 pm before your arrival</li>  <li>Several payment methods including bitcoins</li> <li>Commission paid by guests &ndash; 12% or 15% from the total sum of the booking</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "description2": "<p>*we offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>",
     "pictureUrl": "img/9flats-provider.jpg",
     "url" : "www.9flats.com/"
   },
   {
     "name" : "GLOVELER",
     "description": "<p>A plattform for booking and offering private accomodation. Hosts can advertise on the platform their vacancies for free reaching a large audience of the travel-related websites, whereas guests can book individual accomodations.</p><p>Distinguishing features:</p><ul> <li>No fees for hosts&nbsp;&nbsp; &nbsp;</li> <li>15% fee for guests after a booking was confirmed (host can pay it partially or completely if he wants)&nbsp;&nbsp; &nbsp;</li>  <li>No ID-check by the platform&nbsp;&nbsp; &nbsp;</li> <li>No insurance offered</li> <li>No fee refunding in case of cancellation after a booking was confirmed*</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "description2": "<p>*we offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>",
     "pictureUrl": "img/gloveler-provider.jpg",
     "url" : "www.gloveler.de/"
   },
   {
     "name" : "HOUSETRIP",
     "description": "<p>A rental website offering an alternative to hotels. For hosts completely free and offering easy-to-use tools including a mobile app. Guests can choose between two options: instant booking - without necessity to wait for a confirmation - and on request properties with sending a no-obligation enquiry.</p><p>Distinguishing features:</p><ul>  <li>Loyalty programme &#39;HouseTrip+&#39; to reward frequent guests&nbsp;&nbsp; &nbsp;</li>  <li>HouseTrip vouchers to apply for discount to a future booking&nbsp;&nbsp; &nbsp;</li>  <li>Quality control garanteed through screening by the HouseTrip team of experts&nbsp;&nbsp; &nbsp;</li>  <li>Withholding payment: host get the payment 2 days after the guest&#39;s arrival&nbsp;&nbsp; &nbsp;</li>  <li>Guest-service fee 3,3%; mark-up on rental price 10% - 20%</li>  <li>Guests may have to pay a refundable deposit for the case of property damage</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "description2": "<p>We offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>",
     "pictureUrl": "img/housetrip-provider.jpg",
     "url" : "www.airbnb.com"
   }

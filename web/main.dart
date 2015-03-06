@@ -12,6 +12,7 @@ import 'package:Ergo/component/provider_view/provider_view.dart';
 import 'package:Ergo/component/insurance/insurance.dart';
 import 'package:Ergo/component/news_view/news_view.dart';
 import 'package:Ergo/component/comments/comments.dart';
+import 'package:Ergo/component/insurance_map/insurance_map.dart';
 
 class MainModule extends Module {
 
@@ -25,6 +26,7 @@ class MainModule extends Module {
     bind(MapComponent);
     bind(InsuranceComponent);
     bind(CommentsComponent);
+    bind(InsuranceMapComponent);
 
     // Route configuration
     bind(RouteInitializerFn, toValue: ergoRouteInitializer);
