@@ -91,7 +91,7 @@ class MapComponent implements ShadowRootAware {
 
             // set info window
             var buttons = '<a href="' + f.url + '" class="btn btn-danger" role="button">Without Insurance</a>' +
-            '<a href="#/provider/map/insurance" class="btn btn-success pull-right" role="button">With Insurance</a>';
+            '<a href="#/provider/map/insurance" class="btn btn-success pull-right" role="button">With Travel Insurance</a>';
             final infowindow = new InfoWindow(new InfoWindowOptions()
               ..content = f.content + buttons
             );
