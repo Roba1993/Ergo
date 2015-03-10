@@ -50,6 +50,7 @@ class MainModule extends Module {
         ..allowElement('TR', attributes: ['class','style'])
         ..allowElement('TD', attributes: ['class','style','align','colspan'])
         ..allowElement('BR', attributes: ['class','style'])
+        ..allowElement('STRONG', attributes: ['class', 'style'])
         ..allowElement('B', attributes: ['class','style']);
 
       return validator;

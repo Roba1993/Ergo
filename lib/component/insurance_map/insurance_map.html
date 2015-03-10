@@ -1,12 +1,11 @@
-<div class="panel panel-default insurance" ng-show="site == null">
-    <div class="panel-heading">Travel Insurance - Step 1</div>
+<div class="panel panel-default insurance">
+    <div class="panel-heading">Home Sharing Insurance</div>
     <div class="panel-body">
         <p>Please insert the following details about the shared flat.</p>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1">Persons</span>
             <input type="number" class="form-control" ng-model="persons" placeholder="20" aria-describedby="basic-addon1">
-            <span class="input-group-addon">m2</span>
         </div>
         <br/>
 
@@ -19,7 +18,8 @@
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3">Start Rent Time</span>
-            <input type="date" class="form-control" ng-model="start" placeholder="01.02.2015" aria-describedby="basic-addon3">
+            <input type="date" class="form-control" ng-model="start" placeholder="01.02.2015"
+                   aria-describedby="basic-addon3">
         </div>
         <br/>
 
@@ -31,89 +31,12 @@
 
         <div class="input-group has-success">
             <span class="input-group-addon" id="basic-addon5">Insurance Price</span>
-            <input type="text" class="form-control" ng-model="calcPrice()" placeholder="10€" aria-describedby="basic-addon5" readonly>
+            <input type="text" class="form-control" ng-model="calcPrice()" placeholder="10€" aria-describedby="basic-addon5"
+                   readonly>
             <span class="input-group-addon">€</span>
         </div>
         <br/>
 
-        <a href="#/map" class="btn btn-danger" role="button">Abort</a>
-        <a ng-click="site = '1'" class="btn btn-success pull-right" role="button">Next</a>
+        <a href="#/map" class="btn btn-default" role="button">Back</a>
     </div>
-</div>
-
-<div class="panel panel-default insurance" ng-show="site == '1'">
-    <div class="panel-heading">Travel Insurance - Step 2</div>
-    <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1b">First & Last Name</span>
-            <input type="text" class="form-control" ng-model="name" placeholder="John Smith" aria-describedby="basic-addon1b">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2b">Address Details</span>
-            <input type="text" class="form-control" ng-model="street" placeholder="Main Street 101" aria-describedby="basic-addon2b">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3b">Postal Code & City</span>
-            <input type="text" class="form-control" ng-model="city" placeholder="72639 Cologne" aria-describedby="basic-addon3b">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon4b">Country</span>
-            <input type="text" class="form-control" ng-model="country" placeholder="Germany" aria-describedby="basic-addon4b">
-        </div>
-        <br/>
-
-
-        <a ng-click="site = null" class="btn btn-danger" role="button">Back</a>
-        <a ng-click="site = '2'" class="btn btn-success pull-right" role="button">Next</a>
-    </div>
-</div>
-
-<div class="panel panel-default insurance" ng-show="site == '2'">
-    <div class="panel-heading">Travel Insurance - Step 3</div>
-    <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
-
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1c">First & Lastname</span>
-            <input type="text" class="form-control" value="{{name}}" aria-describedby="basic-addon1c">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2c">Credit Card Number</span>
-            <input type="text" class="form-control" ng-model="card" placeholder="0123 4567 1234 5678" aria-describedby="basic-addon2c">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3c">Secret Number</span>
-            <input type="text" class="form-control" ng-model="secret" placeholder="123" aria-describedby="basic-addon3c">
-        </div>
-        <br/>
-
-        <div class="input-group">
-            <span class="input-group-addon" id="basic-addon4c">Expire Date</span>
-            <input type="text" class="form-control" ng-model="expire" placeholder="16/06" aria-describedby="basic-addon4c">
-        </div>
-        <br/>
-
-
-        <a ng-click="site = '1'" class="btn btn-danger" role="button">Back</a>
-        <a ng-click="site = '3'" class="btn btn-success pull-right" role="button">Pay</a>
-    </div>
-</div>
-
-<div class="jumbotron insurance" ng-show="site == '3'">
-    <h1>Payment Successful</h1>
-    <p>The amount of {{calcPrice()}}€ is get from {{name}} and his debit card {{card}}</p>
-    <p><a class="btn btn-primary btn-success" href="#" role="button">Ready</a></p>
 </div>

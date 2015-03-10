@@ -54,7 +54,7 @@ class MapComponent implements ShadowRootAware {
   setMap() {
     // set the map options
     final mapOptions = new MapOptions()
-      ..zoom = 8
+      ..zoom = 12
       ..center = new LatLng(50.936039090088215, 6.96121215820312)
       ..mapTypeId = MapTypeId.ROADMAP
     ;

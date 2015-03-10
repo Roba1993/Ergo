@@ -13,17 +13,10 @@ class InsuranceMapComponent {
   var site;
   final format = new NumberFormat("###.0#", "en_US");
 
-  var name;
   num persons = 2;
   num price = 100;
   DateTime start;
   DateTime end;
-  var street;
-  var city;
-  var country;
-  var card;
-  var secret;
-  var expire;
 
 
   num calcDays() {
