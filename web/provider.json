@@ -7,7 +7,14 @@
     "url" : "www.airbnb.com"
   },
   {
-    "name" : "WINDU",
+    "name" : "HOUSETRIP",
+    "description": "<p>A rental website offering an alternative to hotels. For hosts completely free and offering easy-to-use tools including a mobile app. Guests can choose between two options: instant booking - without necessity to wait for a confirmation - and on request properties with sending a no-obligation enquiry.</p><p>Distinguishing features:</p><ul>  <li>Loyalty programme &#39;HouseTrip+&#39; to reward frequent guests&nbsp;&nbsp; &nbsp;</li>  <li>HouseTrip vouchers to apply for discount to a future booking&nbsp;&nbsp; &nbsp;</li>  <li>Quality control garanteed through screening by the HouseTrip team of experts&nbsp;&nbsp; &nbsp;</li>  <li>Withholding payment: host get the payment 2 days after the guest&#39;s arrival&nbsp;&nbsp; &nbsp;</li>  <li>Guest-service fee 3,3%; mark-up on rental price 10% - 20%</li>  <li>Guests may have to pay a refundable deposit for the case of property damage</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
+    "pictureUrl": "img/housetrip-provider.jpg",
+    "pictureBottomUrl": "img/flexiBookingHouseTrip.jpg",
+    "url" : "www.airbnb.com"
+  },
+  {
+    "name" : "WIMDU",
     "description": "<p>An online platform with accomodation offerings for any preferences and budget. Here hosts receive support from a photography service to improve the quality of the listings. Guests get garanteed quality and are well informed about the amenities provided by property and the guidelines to adhere to stated in the &#39;House rules&#39; prepared by hosts..</p><p>Distinguishing features:&nbsp;&nbsp; &nbsp;</p><ul> <li>Triple-check to ensure quality: in-site check, 365 check, guest reviews</li>  <li>Free host insurance for up to 500,000&euro;, however available not in all countries</li>  <li>Wimdu Host App</li> <li>Security deposit option</li>  <li>Three cancellation policies available:&lsquo;Free&rsquo;, &lsquo;Moderate&rsquo; and&lsquo;Strict*</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
     "pictureUrl": "img/windu-provider.jpg",
     "pictureBottomUrl": "img/flexiBookingWimdu.jpg",
@@ -26,12 +33,5 @@
     "pictureUrl": "img/gloveler-provider.jpg",
     "pictureBottomUrl": "img/flexiBookinggloveler.jpg",
     "url" : "www.gloveler.de/"
-  },
-  {
-    "name" : "HOUSETRIP",
-    "description": "<p>A rental website offering an alternative to hotels. For hosts completely free and offering easy-to-use tools including a mobile app. Guests can choose between two options: instant booking - without necessity to wait for a confirmation - and on request properties with sending a no-obligation enquiry.</p><p>Distinguishing features:</p><ul>  <li>Loyalty programme &#39;HouseTrip+&#39; to reward frequent guests&nbsp;&nbsp; &nbsp;</li>  <li>HouseTrip vouchers to apply for discount to a future booking&nbsp;&nbsp; &nbsp;</li>  <li>Quality control garanteed through screening by the HouseTrip team of experts&nbsp;&nbsp; &nbsp;</li>  <li>Withholding payment: host get the payment 2 days after the guest&#39;s arrival&nbsp;&nbsp; &nbsp;</li>  <li>Guest-service fee 3,3%; mark-up on rental price 10% - 20%</li>  <li>Guests may have to pay a refundable deposit for the case of property damage</li></ul><p><strong>For hosts there is an opportunity to insure their renting out from possible damages with the ERGO SafeHome by clicking on the button &#39;With Insurance&#39;. Read more about the advantages of the ERGO SafeHome insurance here.</strong></p>",
-    "pictureUrl": "img/housetrip-provider.jpg",
-    "pictureBottomUrl": "img/flexiBookingHouseTrip.jpg",
-    "url" : "www.airbnb.com"
   }
 ]
