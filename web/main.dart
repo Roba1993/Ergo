@@ -29,11 +29,29 @@ class MainModule extends Module {
     bind(CommentsComponent);
     bind(InsuranceMapComponent);
 
-    // allow html links in ng-html tags
+    // set the allowed html tags
     bind(NodeValidator, toFactory: () {
       final validator = new NodeValidatorBuilder()
         ..allowImages()
-        ..allowElement('A', attributes: ['href','onclick','target']);
+        ..allowElement('A', attributes: ['href','onclick','target'])
+        ..allowElement('BUTTON', attributes: ['btn-radio', 'btn-checkbox', 'btn-checkbox-false', 'btn-checkbox-true', 'popover', 'popover-animation', 'popover-placement', 'popover-title', 'popover-trigger', 'tooltip'])
+        ..allowElement('DIV', attributes: ['class', 'collapse', 'style'])
+        ..allowElement('FORM', attributes: ['class','role'])
+        ..allowElement('I', attributes: ['class','style'])
+        ..allowElement('IMG', attributes: ['class','style','src'])
+        ..allowElement('H1', attributes: ['class','style'])
+        ..allowElement('H2', attributes: ['class','style'])
+        ..allowElement('H3', attributes: ['class','style'])
+        ..allowElement('P', attributes: ['class','style'])
+        ..allowElement('TABLE', attributes: ['class','style'])
+        ..allowElement('TBODY', attributes: ['class','style'])
+        ..allowElement('UL', attributes: ['class','style'])
+        ..allowElement('LI', attributes: ['class','style'] )
+        ..allowElement('TR', attributes: ['class','style'])
+        ..allowElement('TD', attributes: ['class','style','align','colspan'])
+        ..allowElement('BR', attributes: ['class','style'])
+        ..allowElement('B', attributes: ['class','style']);
+
       return validator;
     });
 
