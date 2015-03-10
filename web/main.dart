@@ -13,6 +13,7 @@ import 'package:Ergo/component/insurance/insurance.dart';
 import 'package:Ergo/component/news_view/news_view.dart';
 import 'package:Ergo/component/comments/comments.dart';
 import 'package:Ergo/component/insurance_map/insurance_map.dart';
+import 'dart:html';
 
 class MainModule extends Module {
 
@@ -27,6 +28,14 @@ class MainModule extends Module {
     bind(InsuranceComponent);
     bind(CommentsComponent);
     bind(InsuranceMapComponent);
+
+    // allow html links in ng-html tags
+    bind(NodeValidator, toFactory: () {
+      final validator = new NodeValidatorBuilder()
+        ..allowImages()
+        ..allowElement('A', attributes: ['href','onclick','target']);
+      return validator;
+    });
 
     // Route configuration
     bind(RouteInitializerFn, toValue: ergoRouteInitializer);
