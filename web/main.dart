@@ -35,7 +35,7 @@ class MainModule extends Module {
         ..allowImages()
         ..allowElement('A', attributes: ['href','onclick','target'])
         ..allowElement('BUTTON', attributes: ['btn-radio', 'btn-checkbox', 'btn-checkbox-false', 'btn-checkbox-true', 'popover', 'popover-animation', 'popover-placement', 'popover-title', 'popover-trigger', 'tooltip'])
-        ..allowElement('DIV', attributes: ['class', 'collapse', 'style'])
+        ..allowElement('DIV', attributes: ['class', 'collapse', 'style', 'align'])
         ..allowElement('FORM', attributes: ['class','role'])
         ..allowElement('I', attributes: ['class','style'])
         ..allowElement('IMG', attributes: ['class','style','src'])
@@ -51,6 +51,9 @@ class MainModule extends Module {
         ..allowElement('TD', attributes: ['class','style','align','colspan'])
         ..allowElement('BR', attributes: ['class','style'])
         ..allowElement('STRONG', attributes: ['class', 'style'])
+        ..allowElement('SPAN', attributes: ['class', 'style', 'new'])
+        ..allowElement('OL', attributes: ['class', 'style'])
+        ..allowHtml5()
         ..allowElement('B', attributes: ['class','style']);
 
       return validator;
