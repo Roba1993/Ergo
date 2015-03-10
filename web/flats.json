@@ -2,7 +2,7 @@
   {
     "id" : "1",
     "name" : "Flat 1",
-    "content": "<h2>Flat for 3</h2><p>This large, sunny one-bedroom apartment measures about 43 square-meter in a lovely brownstone building in the center of Cologne, just next to the Cologne Cathedral.</p>",
+    "content": "<h2>Flat for 3</h2><p>This large, sunny one-bedroom apartment measures about 43 square-meter in a lovely brownstone building in the center of Cologne, just next to the Cologne Cathedral.</p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 66€</p>",
     "url" : "www.airbnb.de",
     "location" : "Eburonenstraße 1, Köln"
   },
