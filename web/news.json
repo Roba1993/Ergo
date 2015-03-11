@@ -44,7 +44,7 @@
   {
     "id" : "7",
     "title" : "Golden Rules of Home Sharing for Guest and Hosts",
-    "content": "<p><strong>For guests</strong></p><ol><li>Do not try to fix the internet connection unless you really know what you are doing.<div align=\"center\"><img alt=\"\" src=\"img/goldenrules/router_.png\" style=\"width: 100px; height: 100px;\" /></div></li><li>Check out in advance where to get the keys from and how to enter the main building of your apartment.<img alt=\"\" src=\"img/goldenrules/keys.jpg\" style=\"width: 100px; height: 100px;\" /></li></ol>",
+    "content": "<div class='row'> <div class='col-sm-6 col-md-4'><div class='thumbnail'><img src='...'' alt='...'><div class='caption'><p>...</p></div></div></div> <div class='col-sm-6 col-md-4'><div class='thumbnail'><img src='...'' alt='...'><div class='caption'><p>...</p></div></div></div> </div>",
     "urlPic": "img/goldenerules.jpg",
     "isTopnews" : "true"
   },
