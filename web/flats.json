@@ -3,112 +3,112 @@
     "id" : "1",
     "name" : "Flat 1",
     "content": "<h2>Flat for 3</h2><p><b>About</b>: This large, sunny one-bedroom apartment measures about 43 square-meter in a lovely brownstone building in the center of Cologne, just next to the Cologne Cathedral.</p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 66€</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Eburonenstraße 1, Köln"
   },
   {
     "id" : "2",
     "name" : "Flat 2",
     "content": "<h2>Bedroom for 2</h2><p><b>About</b>: Located in the heart of Düsseldorf, this private bedroom features plenty of space, access to living room, kitchen and bath as well as roof in the summer. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 22€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Luisenstraße 10, Düsseldorf"
   },
   {
     "id" : "3",
     "name" : "Flat 3",
     "content" : "<h2>Apartment next to the Rhine</h2><p><b>About</b>: Luxury Studio Apartment, tastefully furnished, Restaurants, Shops, Supermarket in same building and Central Station/Buses in walking distance. </p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 78€</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Anna-Schneider-Steig 8, Köln"
   },
   {
     "id" : "4",
     "name" : "Flat 4",
     "content": "<h2>Flat in historic center of Düsseldorf </h2><p><b>About</b>: An artist-owned green oasis with good connections & parking in the historic center of Düsseldorf, the hotspot of Düsseldorf. A warm, quiet and comfortable flat that looks out onto trees and blends quirky old furniture with a minimalist design ethic. </p> <p><b>Platform</b>: Wimdu</p> <p><b>Price per Night</b>: 56€</p>",    
-    "url" : "www.wimdu.de",
+    "url" : "http://www.wimdu.de",
     "location" : "Mertengasse 19, Düsseldorf"
   },
   {
     "id" : "5",
     "name" : "Flat 5",
     "content": "<h2>Private Room and Bath</h2><p><b>About</b>: This private room in a spacious modern apartment offers a queen size bed and optional twin mattress on the floor. Room has a private balcony, and separate, but private bath. </p> <p><b>Platform</b>: Wimdu</p> <p><b>Price per Night</b>: 32€</p>",
-    "url" : "www.wimdu.de",
+    "url" : "http://www.wimdu.de",
     "location" : "Severinstraße 17, Köln"
   },
   {
     "id" : "6",
     "name" : "Flat 6",
     "content" : "<h2>Central Apartment with great view</h2><p><b>About</b>: Spacious flat with large balcony and stunning views across Cologne. Across the road from the bus station and less than 10 minute walk to the train station. Large private room with access to own bathroom. Greats bars/cafes/shops on your front door. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 59€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Domstraße 81, Köln"
   },
   {
     "id" : "7",
     "name" : "Flat 7",
     "content" : "<h2>Nice Bedroom</h2><p><b>About</b>: I offer a large and spacious cozy room, which is furnished with a very comfortable king size double bed (180 x 200 cm). The room comes with a shared kitchen, bathroom and a livingroom. In the livingroom you can eat, watch TV and relax.  </p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 25</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Stammstraße 4, Köln"
   },
   {
     "id" : "8",
     "name" : "Flat 8",
     "content" : "<h2>Modern and Cozy Apartment in Cenral City</h2><p><b>About</b>: Perfect for traveling professionals, this sizable room has a queen bed, modern decor, and floor-to-ceiling windows. Less than a 10 minute walk (5 min bus) to downtown, this space is accessible for all forms of work and play. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 72€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Heumarkt 75, Köln"
   },
   {
     "id" : "9",
     "name" : "Flat 9",
     "content": "<h2>Renovated Flat</h2><p><b>About</b>: I have just finished renovating my flat and I am renting it out this summer while I am away. There are many supermarkets close to the flat and many are open till late so if you don't feel like eating out, it's always possible to cook something at home! The area is safe, and the access to the building is protected with a first door with a code and a second door with an interphone. </p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 60€</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Berger Allee 9, Düsseldorf"
   },  
   {
     "id" : "10",
     "name" : "Flat 10",
     "content": "<h2>Flat for 3</h2><p><b>About</b>: This large, sunny one-bedroom apartment measures about 43 square-meter in a lovely brownstone building in the center of Cologne, just next to the Cologne Cathedral.</p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 42€</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Barbarossaplatz 6, Köln"
   },
   {
     "id" : "12",
     "name" : "Flat 12",
     "content" : "<h2>Apartment next to the Rhine</h2><p><b>About</b>: Luxury Studio Apartment, tastefully furnished, Restaurants, Shops, Supermarket in same building and Central Station/Buses in walking distance. </p> <p><b>Platform</b>: AirBnB</p> <p><b>Price per Night</b>: 60€</p>",
-    "url" : "www.airbnb.de",
+    "url" : "http://www.airbnb.de",
     "location" : "Chlodwigplatz 4, Köln"
   },
   {
     "id" : "11",
     "name" : "Flat 11",
     "content": "<h2>Bedroom for 2</h2><p><b>About</b>: Located in the heart of Köln, this private bedroom features plenty of space, access to living room, kitchen and bath as well as roof in the summer. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 24€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Kaesenstraße 5, Köln"
   },
   {
     "id" : "16",
     "name" : "Flat 16",
     "content": "<h2>Bedroom for 2</h2><p><b>About</b>: Located in the heart of Düsseldorf, this private bedroom features plenty of space, access to living room, kitchen and bath as well as roof in the summer. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 27€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Am Duffesbach 5, Köln"
   },
   {
     "id" : "13",
     "name" : "Flat 13",
     "content": "<h2>Flat in historic center of Düsseldorf </h2><p><b>About</b>: An artist-owned green oasis with good connections & parking in the historic center of Düsseldorf, the hotspot of Düsseldorf. A warm, quiet and comfortable flat that looks out onto trees and blends quirky old furniture with a minimalist design ethic. </p> <p><b>Platform</b>: Wimdu</p> <p><b>Price per Night</b>: 48</p>",    
-    "url" : "www.wimdu.de",
+    "url" : "http://www.wimdu.de",
     "location" : "Darmstädter Str. 2, Köln"
   },
   {
     "id" : "14",
     "name" : "Flat 14",
     "content": "<h2>Private Room and Bath</h2><p><b>About</b>: This private room in a spacious modern apartment offers a queen size bed and optional twin mattress on the floor. Room has a private balcony, and separate, but private bath. </p> <p><b>Platform</b>: Wimdu</p> <p><b>Price per Night</b>: 28€</p>",
-    "url" : "www.wimdu.de",
+    "url" : "http://www.wimdu.de",
     "location" : "Dreikönigenstraße 2, Köln"
   },
   {
     "id" : "15",
     "name" : "Flat 15",
     "content" : "<h2>Central Apartment with great view</h2><p><b>About</b>: Spacious flat with large balcony and stunning views across Cologne. Across the road from the bus station and less than 10 minute walk to the train station. Large private room with access to own bathroom. Greats bars/cafes/shops on your front door. </p> <p><b>Platform</b>: 9flats</p> <p><b>Price per Night</b>: 68€</p>",
-    "url" : "www.9flats.de",
+    "url" : "http://www.9flats.de",
     "location" : "Sporergasse 22, Köln"
   }
 ]
