@@ -58,3 +58,9 @@
 .navbar-header-menu > *.navbar-right:last-child {
     margin-right: -15px !important;
 }
+
+.logo {
+    height: 70px;
+    margin-top: -35px;
+}
+

@@ -74,7 +74,6 @@ class MapComponent implements ShadowRootAware {
 
       // loop over all maps
       for(FlatModel f in flats) {
-        window.console.log("flat: $f");
         // get the coordinates of the location
         final request = new GeocoderRequest()
           ..address = f.location
