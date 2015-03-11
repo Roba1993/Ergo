@@ -3,18 +3,48 @@
     "id" : "1",
     "name" : "Robert Schütte",
     "content": "I like!!!",
-    "urlPic": "img/team/Hendrikw.png"
+    "urlPic": "img/team/Roberts.jpg"
   },
   {
     "id" : "2",
     "name" : "Lars T.",
-    "content": "Coole Sache",
-    "urlPic": "img/team/Larst.png"
+    "content": "Cool",
+    "urlPic": "img/team/Larst.jpg"
   },
   {
     "id" : "3",
     "name" : "Robert Mellinghoff",
     "content": "Good to know. Thanks for sharing this information!",
-    "urlPic": "img/team/Robertm.png"
+    "urlPic": "img/team/Robertm.jpg"
+  },
+  {
+    "id" : "4",
+    "name" : "Ruben Garcia",
+    "content": "It's great to travel with this opportunity",
+    "urlPic": "img/team/Rubeng.jpg"
+  },
+  {
+    "id" : "5",
+    "name" : "Milana Bessarab",
+    "content": "That's true. This platform helped me through the jungle of information about home sharing",
+    "urlPic": "img/team/Milanab.jpg"
+  },
+  {
+    "id" : "6",
+    "name" : "Lukas K.",
+    "content": "Did someone have some experience with the ERGO Direkt FlexBooking?",
+    "urlPic": "img/team/lukask.jpg"
+  },
+  {
+    "id" : "7",
+    "name" : "Hendrik",
+    "content": "Yes. It helped a lot. Unexpectetly, I had to cancel my booking due to unexpected snow storms",
+    "urlPic": "img/team/Hendrikw.png"
+  },
+  {
+    "id" : "8",
+    "name" : "Lena",
+    "content": "Good to know!!!",
+    "urlPic": "img/team/Lenat"
   }
 ]
