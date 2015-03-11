@@ -1,7 +1,7 @@
 <div class="panel panel-default insurance" ng-show="site == null">
-    <div class="panel-heading">Home Sharing Insurance - Step 1</div>
+    <div class="panel-heading">ERGO Direkt SafeHome - Step 1</div>
     <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
+        <p>In order to make your life as a host easier we offer you an exquisite ERGO Direkt SafeHome insurance - created to guarantee you a compensation in case there is a damage to your property, or any items are stolen. ERGO Direkt SafeHome insurance does not require a homeowner’s insurance and is offered worldwide. You can feel free and safe when lending out you property knowing you have a standard all-inclusive insurance package from one of the leading insurers ERGO Direkt.</p>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1">Flatsize</span>
@@ -11,7 +11,7 @@
         <br/>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2">Rent Price</span>
+            <span class="input-group-addon" id="basic-addon2">Rent Price per Night</span>
             <input type="number" class="form-control" ng-model="price" placeholder="50" aria-describedby="basic-addon2">
             <span class="input-group-addon">€</span>
         </div>
@@ -36,15 +36,15 @@
         </div>
         <br/>
 
-        <a href="#/provider/{{provider.name}}" class="btn btn-danger" role="button">Abort</a>
+        <a href="#/provider/{{provider.name}}" class="btn btn-danger" role="button">Cancel</a>
         <a ng-click="site = '1'" class="btn btn-success pull-right" role="button">Next</a>
     </div>
 </div>
 
 <div class="panel panel-default insurance" ng-show="site == '1'">
-    <div class="panel-heading">Home Sharing Insurance - Step 2</div>
+    <div class="panel-heading">ERGO Direkt SafeHome - Step 2</div>
     <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
+        <p>Please insert the following details.</p>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1b">First & Last Name</span>
@@ -77,31 +77,31 @@
 </div>
 
 <div class="panel panel-default insurance" ng-show="site == '2'">
-    <div class="panel-heading">Home Sharing Insurance - Step 3</div>
+    <div class="panel-heading">ERGO Direkt SafeHome - Step 3</div>
     <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
+        <p>Please insert the following details about your Credit Card.</p>
 
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1c">First & Lastname</span>
+            <span class="input-group-addon" id="basic-addon1c">First & Last Name</span>
             <input type="text" class="form-control" value="{{name}}" aria-describedby="basic-addon1c">
         </div>
         <br/>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2c">Credit Card Number</span>
+            <span class="input-group-addon" id="basic-addon2c">Card Number</span>
             <input type="text" class="form-control" ng-model="card" placeholder="0123 4567 1234 5678" aria-describedby="basic-addon2c">
         </div>
         <br/>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3c">Secret Number</span>
+            <span class="input-group-addon" id="basic-addon3c">Security Code</span>
             <input type="text" class="form-control" ng-model="secret" placeholder="123" aria-describedby="basic-addon3c">
         </div>
         <br/>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon4c">Expire Date</span>
+            <span class="input-group-addon" id="basic-addon4c">Expiration Date</span>
             <input type="text" class="form-control" ng-model="expire" placeholder="16/06" aria-describedby="basic-addon4c">
         </div>
         <br/>
@@ -113,7 +113,9 @@
 </div>
 
 <div class="jumbotron insurance" ng-show="site == '3'">
-    <h1>Payment Successful</h1>
-    <p>The amount of {{calcPrice()}}€ is get from {{name}} and his debit card {{card}}</p>
-    <p><a class="btn btn-primary btn-success" href="#" role="button">Go to {{provider.name}}</a></p>
+    <h5>Payment Successful - The amount of {{calcPrice()}}€ is get from your credit card.</h5>
+    <h2>Now your home is safe and insured against unexpected damages.</h2>
+    <img src="img/insurance.jpg">
+    <h5>Please go now on the website of the platform and follow the steps to register your flat on the platform.</h5>
+    <p><a class="btn btn-primary btn-success" href="{{provider.url}}" role="button">Go to {{provider.name}}</a></p>
 </div>

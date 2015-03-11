@@ -1,7 +1,7 @@
 <div class="panel panel-default insurance">
-    <div class="panel-heading">Home Sharing Insurance</div>
+    <div class="panel-heading">ERGO Direkt FlexBooking</div>
     <div class="panel-body">
-        <p>Please insert the following details about the shared flat.</p>
+        <p>Please insert the following details.</p>
 
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon1">Persons</span>
@@ -10,7 +10,7 @@
         <br/>
 
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon2">Rent Price</span>
+            <span class="input-group-addon" id="basic-addon2">Rent Price per Night</span>
             <input type="number" class="form-control" ng-model="price" placeholder="50" aria-describedby="basic-addon2">
             <span class="input-group-addon">€</span>
         </div>
@@ -38,5 +38,6 @@
         <br/>
 
         <a href="#/map" class="btn btn-default" role="button">Back</a>
+        <a href="{{flat.url}}" class="btn btn-default pull-right" role="button">Watch this flat</a>
     </div>
 </div>

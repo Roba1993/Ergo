@@ -14,37 +14,6 @@ menu {
     display: none !important;
 }
 
-.largeIcon{
-    font-size: 50px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.well-white{
-    background: rgb(255, 255, 255);
-}
-
-.icon-facebook {
-color: #3b5998;
-    size: 40px;
-}
-
-.icon-twitter {
-color: #41b7d8;
-    size: 40px;
-}
-
-.icon-youtube {
-color: #bb0000;
-    size: 40px;
-}
-
-.icon-google-plus {
-    color: #d64937;
-    size: 40px;
-
-}
-
 
 
 

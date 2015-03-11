@@ -90,8 +90,8 @@ class MapComponent implements ShadowRootAware {
             );
 
             // set info window
-            var buttons = '<a href="' + f.url + '" class="btn btn-danger" role="button">Without Insurance</a>' +
-            '<a href="#/map/insurance" class="btn btn-success pull-right" role="button">With Travel Insurance</a>';
+            var buttons = '<a href="' + f.url + '" class="btn btn-default" role="button">Watch this flat</a>' +
+            '<a href="#/map/insurance/' + f.id + '" class="btn btn-default pull-right" role="button">Calculate Insurance</a>';
             final infowindow = new InfoWindow(new InfoWindowOptions()
               ..content = f.content + buttons
             );

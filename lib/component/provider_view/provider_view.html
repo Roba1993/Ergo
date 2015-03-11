@@ -4,10 +4,10 @@
         <h3>{{provider.name}}</h3>
         <p ng-bind-html="provider.description"></p>
         <p>
-            <a href="#" class="btn btn-danger" role="button">Without Insurance</a>
+            <a href="{{provider.url}}" class="btn btn-danger" role="button">Without Insurance</a>
             <a href="#/provider/{{provider.name}}/insurance" class="btn btn-success pull-right" role="button">With Insurance</a>
         </p>
     </div>
-    <p class="pic-text" style="background-image: url('{{provider.pictureBottomUrl}}');">* We offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <u>here</u>.</p>
+    <p class="pic-text" style="background-image: url('{{provider.pictureBottomUrl}}');">* We offer you an opportunity to avoid the risk of money loss through booking cancellation with our insurance ERGO flexiBooking. Read more about ERGO flexiBooking <a href="#/map/insurance">here</a>.</p>
     <!-- TODO rounded pic corners -->
 </div>
