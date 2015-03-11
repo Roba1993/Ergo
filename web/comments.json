@@ -3,18 +3,18 @@
     "id" : "1",
     "name" : "Robert Schütte",
     "content": "I like!!!",
-    "urlPic": "img/team/Roberts.jpg"
+    "urlPic": "img/team/Hendrikw.png"
   },
   {
     "id" : "2",
     "name" : "Lars T.",
     "content": "Coole Sache",
-    "urlPic": "img/team/Larst.jpg"
+    "urlPic": "img/team/Larst.png"
   },
   {
     "id" : "3",
     "name" : "Robert Mellinghoff",
     "content": "Good to know. Thanks for sharing this information!",
-    "urlPic": "img/team/Robertm.jpg"
+    "urlPic": "img/team/Robertm.png"
   }
 ]
